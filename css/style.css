@@ -7,24 +7,45 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-    color: lightpink;
+    color: white;
     text-align: center;
+    padding: 2rem;
+    
 }
 .container {
     width: 100%;
-    height: 100vh;
-    background-color: lightslategrey;
+    padding-bottom: 3rem;
+    background-color: darkslateblue
 }
 
-#box {
-    width: 80%;
-    margin: 0 auto;
-    /* debug */
-    border: 1px solid black;
+.box {
+    width: calc(100% / 10 - 5px);
+    height: 80px;
+    font-size: .8rem;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 10px;
+    
 }
 
 #squares {
-    width: 30px;
-    height: 30px;
-    border: 1px solid red;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 5px;
+    
+}
+.FizzBuzz {
+    background-color: lightcoral;
+}
+.Fizz {
+    background-color: lightseagreen;
+}
+.Buzz {
+    background-color: lightskyblue;
+} 
+.normNum {
+    background-color: lightslategray;
 }

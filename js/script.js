@@ -2,17 +2,24 @@
 //calcola tutti i multipli di tre e di 5
 //calcola tutti i multipli di 5
 //calcola tutti i multipli di 3
-
+const boxElem = parseInt(document.getElementById("squares"));
+let multipli = 0;
 for (let i = 1; i <= 100; i++ ) {
     let multipli;
     if (i % 15 === 0) {
-        multipli = "FizzBuzz"
+        multipli = "FizzBuzz";
     } else if (i % 3 === 0) {
-        multipli = "Fizz"
+        multipli = "Fizz";
     } else if (i % 5 === 0) {
-        multipli = "Buzz"
+        multipli = "Buzz";
     } else {
         multipli = i;
     }
     console.log(multipli);
+    boxElem.innerHTML = `<div>${multipli}</div>`;
 }
+
+
+//stampa il gioco
+
+

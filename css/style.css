@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: lightpink;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: lightslategrey;
+}
+
+#box {
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+}
+
+#squares {
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}

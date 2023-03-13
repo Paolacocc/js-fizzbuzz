@@ -7,7 +7,7 @@ const boxElem = document.getElementById("squares");
 for (let i = 1; i <= 100; i++ ) {
     let multipli;
     let classColor;
-    if (i % 15 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) {
         multipli = "FizzBuzz";
         classColor = "FizzBuzz";
     } else if (i % 3 === 0) {
